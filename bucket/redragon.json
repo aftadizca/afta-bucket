@@ -10,7 +10,7 @@
     "suggest": {
     },
     "url": "https://cdn.shopify.com/s/files/1/2695/9506/files/REDRAGON_Gaming_Mouse.rar?v=1624954180",
-    "hash": "64f166b80ae56643f81cefa269503476fc0ad32e2c5753a9d3e40d342d71daa1",
+    "hash": "d38a641fd402821576a0d2f5ec38d441f2325de229bf6fbc620258c1e86e536d",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\REDRAGON*.rar\" -Removal"
     ],
