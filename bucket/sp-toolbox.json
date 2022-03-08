@@ -15,7 +15,7 @@
         "Rename-Item -Path \"$dir\\get.php\" -NewName \"$dir\\SPToolbox.zip\"",
         "Expand-7zipArchive \"$dir\\SPToolbox.zip\" -Removal",
         "Get-ChildItem -Path \"$dir\\SP Toolbox*\" -Recurse| Move-Item -Destination \"$dir\"",
-        "Remove-Item \"$dir\\SP Toolbox*\""
+        "Remove-Item \"$dir\\SP Toolbox*\" -exclude \".*.\""
     ],
     "post_install": [],
 	"innosetup": false,
