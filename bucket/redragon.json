@@ -18,7 +18,7 @@
 	"innosetup": false,
     "installer": {
         "file": "REDRAGON Gaming Mouse.exe",
-        "args":["/VERYSILENT /DIR=\"$dir\""]
+        "args":["/SP- /VERYSILENT /DIR=\"$dir\" /NOICONS"]
     },
     "bin": "RDCfg.exe",
     "shortcuts": [
