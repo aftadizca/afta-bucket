@@ -1,0 +1,29 @@
+{
+    "version": "1.0.34",
+    "description": "Redragon Mouse M908",
+    "homepage": "https://www.redragonzone.com/pages/download",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.msi.com/page/website-terms-of-use"
+    },
+    "notes": [],
+    "suggest": {
+    },
+    "url": "https://cdn.shopify.com/s/files/1/2695/9506/files/REDRAGON_Gaming_Mouse.rar?v=1624954180",
+    "hash": "64f166b80ae56643f81cefa269503476fc0ad32e2c5753a9d3e40d342d71daa1",
+    "pre_install": [
+        "Expand-7zipArchive \"$dir\\REDRAGON*.rar\" -Removal"
+    ],
+    "post_install": [],
+	"innosetup": true,
+    "bin": "RDCfg.exe",
+    "shortcuts": [
+        [
+            "RDCfg.exe",
+            "Redragon M908"
+        ]
+    ],
+    "persist": "",
+    "checkver": {
+    }
+}
