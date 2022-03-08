@@ -13,7 +13,8 @@
     "hash": "",
     "pre_install": [
         "Rename-Item -Path \"$dir\\get.php\" -NewName \"$dir\\SPToolbox.zip\"",
-        "Expand-7zipArchive \"$dir\\SPToolbox.zip\" -Removal"
+        "Expand-7zipArchive \"$dir\\SPToolbox.zip\" -Removal",
+        "Move-Item -Path \"$dir\\SP Toolbox*\\\" -Destination  \"$dir\\\\\""
     ],
     "post_install": [],
 	"innosetup": false,
