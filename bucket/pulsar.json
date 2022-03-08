@@ -31,7 +31,7 @@
     "persist": "",
     "checkver": {
         "url": "https://www.pulsar.gg/pages/download-pcmk-tkl-mechanical-keyboard",
-        "regex": "V([\\d.]+)"
+        "regex": "V(\\d).(\\d+).(\\d+)"
     },
     "autoupdate": {
         "url": "https://aplusxgg.github.io/download/software/pcmk/tkl/V$version/PulsarFusion_Installer_V$version.exe",
