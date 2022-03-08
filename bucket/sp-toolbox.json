@@ -10,7 +10,7 @@
     "suggest": {
     },
     "url": "https://www.silicon-power.com/web/file/get.php?mrc_SPic1=1645779563_47a61cbcfce3f6222f59a42b4e427f94",
-    "hash": "",
+    "hash": "64f166b80ae56643f81cefa269503476fc0ad32e2c5753a9d3e40d342d71daa1",
     "pre_install": [
         "Rename-Item -Path \"$dir\\get.php\" -NewName \"$dir\\SPToolbox.zip\"",
         "Expand-7zipArchive \"$dir\\SPToolbox.zip\" -Removal",
