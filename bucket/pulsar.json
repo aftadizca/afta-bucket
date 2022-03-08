@@ -1,5 +1,5 @@
 {
-    "version": "1.04.08",
+    "version": "1",
     "description": "Pulsar RGB Apps",
     "homepage": "https://www.pulsar.gg/pages/download-pcmk-tkl-mechanical-keyboard",
     "license": {
@@ -7,18 +7,18 @@
         "url": "https://www.msi.com/page/website-terms-of-use"
     },
     "notes": [
-
+        
     ],
     "suggest": {
-
+        
     },
-    "url": "https://aplusxgg.github.io/download/software/pcmk/tkl/V1.04.08/PulsarFusion_Installer_V1.04.08.exe",
+    "url": "https://aplusxgg.github.io/download/software/pcmk/tkl/V1/PulsarFusion_Installer_V1.exe",
     "hash": "",
     "pre_install": [
-
+        
     ],
     "post_install": [
-
+        
     ],
     "innosetup": true,
     "bin": "PulsarFusion.exe",
@@ -36,6 +36,7 @@
     "autoupdate": {
         "url": "https://aplusxgg.github.io/download/software/pcmk/tkl/V$version/PulsarFusion_Installer_V$version.exe",
         "hash": {
+            
         }
     }
 }
