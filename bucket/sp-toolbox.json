@@ -1,0 +1,27 @@
+{
+    "version": "4.0.7D1",
+    "description": "Silicon Power Toolbox",
+    "homepage": "https://www.silicon-power.com/web/download-ToolBox",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.msi.com/page/website-terms-of-use"
+    },
+    "notes": [],
+    "suggest": {
+    },
+    "url": "https://www.silicon-power.com/web/file/get.php?mrc_SPic1=1645779563_47a61cbcfce3f6222f59a42b4e427f94",
+    "hash": "",
+    "pre_install": [],
+    "post_install": [],
+	"innosetup": true,
+    "bin": "SP Toolbox.exe",
+    "shortcuts": [
+        [
+            "SP Toolbox.exe",
+            "SP Toolbox"
+        ]
+    ],
+    "persist": "",
+    "checkver": {
+    }
+}
