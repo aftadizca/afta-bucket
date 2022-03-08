@@ -7,18 +7,18 @@
         "url": "https://www.msi.com/page/website-terms-of-use"
     },
     "notes": [
-        
+
     ],
     "suggest": {
-        
+
     },
     "url": "https://aplusxgg.github.io/download/software/pcmk/tkl/V1.04.08/PulsarFusion_Installer_V1.04.08.exe",
     "hash": "",
     "pre_install": [
-        
+
     ],
     "post_install": [
-        
+
     ],
     "innosetup": true,
     "bin": "PulsarFusion.exe",
@@ -29,4 +29,6 @@
         ]
     ],
     "persist": "",
+    "checkver": {
+    }
 }
