@@ -11,7 +11,10 @@
     },
     "url": "https://www.silicon-power.com/web/file/get.php?mrc_SPic1=1645779563_47a61cbcfce3f6222f59a42b4e427f94",
     "hash": "",
-    "pre_install": [],
+    "pre_install": [
+        "Rename-Item -Path \"$dirs\\get.php\" -NewName \"$dirs\\SPToolbox.zip\"",
+        "Expand-7zipArchive \"$dir\\SPToolbox.zip\" -Removal"
+    ],
     "post_install": [],
 	"innosetup": false,
     "bin": "SP Toolbox.exe",
