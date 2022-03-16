@@ -1,10 +1,10 @@
 {
-    "version": "3.1.500.0",
+    "version": "3.1.507.0",
     "description": "Easily backup, restore and transfer video games save data",
     "homepage": "https://www.gamesave-manager.com",
     "license": "Freeware",
-    "url": "https://www.gamesave-manager.com/?s=download&ref=A4008497-2928-4750-8B88-3587C94456A2&action=start#/dl.7z",
-    "hash": "md5:e398772aa29e31c5f76ad3a2173f94ce",
+    "url": "https://www.gamesave-manager.com/?s=download&ref=a4008497-2928-4750-8b88-3587c94456a2&action=start#/dl.7z",
+    "hash": "0e175258791a28a37db64e7d5ad0cac84770e55145db350680bfd9ca229c8450",
     "pre_install": "if (!(Test-Path \"$dir\\settings\")) { New-Item \"$dir\\settings\" -Type directory | Out-Null }",
     "persist": "settings",
     "bin": "gs_mngr_3.exe",
