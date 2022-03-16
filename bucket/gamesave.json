@@ -15,7 +15,7 @@
         ]
     ],
     "checkver": {
-        "regex": "(?sm)releasedetailsvalues\">\\s+([\\d\\.]+).*ref={(?<GUID>[\\w-]+)\\}\""
+        "regex": "(?sm)releasedetailsvalues\">\\s+([\\d\\.]+).*ref=(?<GUID>[\w-]+)&type=client\""
     },
     "autoupdate": {
         "url": "https://www.gamesave-manager.com/?s=download&ref=$matchGUID&action=start#/dl.7z",
