@@ -12,7 +12,7 @@
     "suggest": {
 
     },
-    "url": "https://aplusxgg.github.io/download/software/pcmk/tkl/V1.04.08/PulsarFusion_Installer_V1.04.08.exe",
+    "url": "https://aplusxgg.github.io/download/PulsarFusion_Installer_V1.04.09.exe",
     "hash": "",
     "pre_install": [
 
@@ -30,5 +30,10 @@
     ],
     "persist": "",
     "checkver": {
+        "url": "https://www.pulsar.gg/pages/download-pcmk-tkl-mechanical-keyboard",
+        "regex": "(?sm)href=\"https:\/\/aplusxgg.github.io\/download\/PulsarFusion_Installer_V([\\d\\.]+).exe\""
+    },
+    "autoupdate": {
+        "url": "https://aplusxgg.github.io/download/PulsarFusion_Installer_V$version.exe"
     }
 }
