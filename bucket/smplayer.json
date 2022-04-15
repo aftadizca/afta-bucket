@@ -12,7 +12,6 @@
             "hash": "sha1:171ebf05d55c3705b4d838cebe0015404f698896"
         }
     },
-    "extract_dir": "smplayer-portable-19.5.0.0",
     "persist": [
         "smplayer.ini",
         "playlist.ini",
