@@ -6,8 +6,8 @@
         "identifier": "Freeware",
         "url": "http://www.aimp.ru/files/windows/EULA_lang-en.txt"
     },
-    "url": "http://www.aimp.ru/?do=download.file&id=31#/dl.zip",
-    "hash": "57051524772b77ce7d490cdecfe96bd5298d3b0c409c3e8b27508891956ac15e",
+    "url": "http://www.aimp.ru/?do=download.file&id=8#/dl.zip",
+    "hash": "3b1c40272eeab0bc540eb06814e08f817b42284cd452d20015fba388698970f8",
     "extract_dir": "AIMP",
     "bin": [
         "AIMP.exe",
@@ -39,6 +39,6 @@
         "regex": "aimp_([\\d.]+)"
     },
     "autoupdate": {
-        "url": "http://www.aimp.ru/?do=download.file&id=31#/dl.zip"
+        "url": "http://www.aimp.ru/?do=download.file&id=8#/dl.zip"
     }
 }
